@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-	<title>Demo CakePHP Application</title>
+	<title>Demo Application</title>
 </head>
 <body>
 	<?php
