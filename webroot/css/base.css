@@ -1,0 +1,23 @@
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+#mainPanel {
+	width: 100%;
+	min-width: 768px;
+}
+
+#mainPanel .panels {
+	border: solid 1px #CCC;
+	height: 488px;
+}
+
+#navList {
+	width: 28%;
+	float: left;
+}
+
+#previewPanel {
+	width: 68%;
+	float: left;
+}

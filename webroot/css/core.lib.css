@@ -1,0 +1,151 @@
+.bl{
+	display : block;
+}
+
+.clear {
+	clear: both;
+}
+
+.currency1 {
+	color: #555 !important;
+	font-size: 12pt;
+}
+
+.il {
+	display : inline;
+}
+
+.bd {
+	border : solid 1px #CCC;
+}
+
+.nbd {
+	border : none !important;
+}
+
+.tbd {
+	border-top : solid 1px #CCC !important;
+}
+
+.t1 td {
+	border: solid 1px #CCC;
+}
+
+.mb18px {
+	margin-bottom : 18px;
+}
+
+.txtl {
+	text-align : left !important;
+}
+
+.txtc {
+	text-align : center !important;
+}
+
+.txtr {
+	text-align : right !important;
+}
+
+.cm {
+	margin-left : auto;
+	margin-right : auto;	
+}
+
+.index .submit {
+	margin-bottom : 0;
+	text-align : center;
+}
+
+.w98 {
+	width: 98%;
+}
+
+.w100 {
+	width : 100%;
+}
+
+.h100 {
+	height : 100%;
+}
+
+.w128 {
+	width : 128px;
+}
+
+.w88 {
+	width : 98px;
+}
+
+.fl {
+	float : left;
+}
+
+.fr {
+	float : right;
+}
+
+.fwSelect{
+	width: 100% !important;
+	font-size: 11pt !important;
+}
+
+.f10 {
+	font-size: 10pt !important;
+}
+
+.f11 {
+	font-size: 11pt !important;
+}
+
+.f12 {
+	font-size: 12pt !important;
+}
+
+.vam {
+	vertical-align : middle !important;
+}
+
+.vab {
+	vertical-align : bottom !important;
+}
+
+.vat {
+	vertical-align : top !important;
+}
+
+.trb {
+	background-color : transparent !important;
+}
+
+.m18 {
+	margin : 18px;
+}
+
+.w48pc {
+	width: 48%;
+}
+
+.lsn {
+	list-style: none;
+}
+
+.shbb {
+	-moz-box-shadow: 0 0 5px 0 #888;
+	-webkit-box-shadow: 0 0 5px 0 #888;
+	box-shadow: 0 0 5px 0 #888;
+}
+
+.besh {
+	-webkit-box-shadow: 0px 2px 5px #888;
+	-moz-box-shadow: 0px 2px 5px #888;
+	box-shadow: 0px 2px 5px #888;
+}
+
+.td20 > td {
+	width: 20%;
+}
+
+.td15 > td {
+	width: 15%;
+}
