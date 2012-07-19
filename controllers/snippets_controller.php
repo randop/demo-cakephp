@@ -9,7 +9,7 @@ class SnippetsController extends AppController {
 	function index(){
 		$snippets = $this->Snippet->find('all');
 		$this->set('snippets', $snippets);
-		
+			
 		$this->loadModel('Category');
 		$categories = $this->Category->find('list');
 		$this->set('categories', $categories);

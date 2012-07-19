@@ -29,3 +29,11 @@ CREATE TABLE `snippets`(
 	modified DATETIME,
 	PRIMARY KEY (id)
 );
+
+CREATE TABLE `users`(
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	username CHAR(50) NOT NULL,
+	password CHAR(50) NOT NULL,
+	PRIMARY KEY (id)
+);
+

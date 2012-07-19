@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; user-scalable=0;" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	
 	<meta name="description" content="">
 	<meta name="author" content="Randolph Ledesma">
 	<title>
@@ -19,17 +21,12 @@
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
-			  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			  </a>
-			  <a class="brand" href="#">Project name</a>
-			  <div class="nav-collapse">
+				<a class="brand" href="#"><?php echo Configure::read('App.Name'); ?></a>
 				<ul class="nav">
-				  <li class="active"><a href="#">Home</a></li>
+					<li><?php echo $this->Html->link('Home', array(
+						'controller'=>'snippets','action'=>'index'
+						)); ?></li>
 				</ul>
-			  </div><!--/.nav-collapse -->
 			</div>
 		</div>
 	</div>

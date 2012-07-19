@@ -4,7 +4,6 @@ body {
 
 #mainPanel {
 	width: 100%;
-	min-width: 768px;
 }
 
 #mainPanel .panels {
@@ -12,12 +11,29 @@ body {
 	height: 488px;
 }
 
+#mainPanel > .well {
+	padding: 4px;
+}
+
 #navList {
 	width: 28%;
 	float: left;
+	margin-right: 18px;
+}
+
+#navList ul li {
+	line-height: 28px;
 }
 
 #previewPanel {
-	width: 68%;
+	width: 65%;
 	float: left;
+}
+
+#previewPanel > header {
+	padding: 8px;
+}
+
+#previewPanel > section {
+	padding: 8px;
 }

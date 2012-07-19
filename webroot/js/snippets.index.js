@@ -5,7 +5,7 @@ $(document).ready( function(){
 		lineNumbers: true,
 	});
 	
-	$('#addSnippetButton').click( function(){
+	$('#addSnippetButton').click( function(event){
 		addSnippetEditor.save();
 		var params = $('#addSnippetForm').serialize();
 		$.ajax({
@@ -17,10 +17,19 @@ $(document).ready( function(){
 				$('#snippetModal').modal('hide');
 			}
 		});
-		return false;
+		event.preventDefault();
 	});
 	
+	attachSnippetLinkClickEvent();
+	
 });
+
+function attachSnippetLinkClickEvent(){
+	$('.snippetLink').unbind('click');
+	$('.snippetLink').on("click", function(event){
+		event.preventDefault();
+	});
+}
 
 function showSnippet(param){
 	switch( param ){
